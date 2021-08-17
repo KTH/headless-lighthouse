@@ -1,6 +1,9 @@
 name: Evolene CI
 
-on:  
+on:
+  schedule:
+    - cron: "0 1 1 * *"
+
   push:
     paths-ignore:
           - '*.md'
