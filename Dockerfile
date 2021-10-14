@@ -1,4 +1,4 @@
-FROM kthse/kth-nodejs:12.0.0
+FROM kthse/kth-nodejs:16.0.0
 
 RUN apk add chromium
 RUN npm i -g lighthouse
